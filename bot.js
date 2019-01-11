@@ -2539,4 +2539,4 @@ client.on('message', message => {
 });
 
 
-client.login("NDk1MTU2NTk2ODM0NTY2MTQ0.DxkW2Q.Yy3WeftW-dfR40zemZevxjadEHQ");
+client.login(process.env.BOT_TOKEN);
