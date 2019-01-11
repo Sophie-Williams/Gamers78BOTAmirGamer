@@ -2391,7 +2391,7 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'الوان') {
-              message.channel.send('**هذه قائمة الالوان لتغير لونك اكتب #color <رقم للون> **');
+              message.channel.send('**https://e.top4top.net/p_1106rk2lp1.png لاختيار لون اكتب #color <رقم اللون> **');
               message.channel.sendFile("./colors.png");
                
 
