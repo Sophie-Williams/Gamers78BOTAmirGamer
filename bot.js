@@ -2452,6 +2452,7 @@ client.on('message', message => {
 .addField('     ** *kick <name> <reson> ** ' ,' **ل اعطاء طرد ** ')
 .addField('     ** *createcolors** ' , '**لصنع الوان** ')
 .addField('     ** *deletecolors** ' , '**لمسح الالوان** ')
+.addField('     ** اي مشكلة المرجو الاتصال بصانع البوت هنا https://discord.gg/5x69GGf** ')
 .addField('**لدعوة البوت للسيرفر ..**' , '**https://discordapp.com/api/oauth2/authorize?client_id=495156596834566144&permissions=8&scope=bot**')
 .setColor('RANDOM')
   message.channel.sendEmbed(embed);
